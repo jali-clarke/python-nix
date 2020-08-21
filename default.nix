@@ -4,6 +4,7 @@ let
     python38
     bash
     coreutils
+    which
   ];
 
   pythonPkgs = with pkgs.python38Packages; [
